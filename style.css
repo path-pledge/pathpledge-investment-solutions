@@ -78,20 +78,32 @@ section {
     right: 0;
     background-color: var(--bg-color);
     border-bottom: var(--border);
+    text-transform: none !important;
     box-shadow: var(--box-shadow);
     z-index: 1000;
+}
+
+a.logo {
+    text-transform: none !important;
+}
+
+.header .flex .logo i {
+    text-transform: none !important;
 }
 
 .header .flex {
     display: flex;
     justify-content: space-between;
+    text-transform: none !important;
     align-items: center;
     padding: 2rem;
+    text-transform: capitalize;
 }
 
 .header .flex .logo {
     font-size: 2rem;
     color: var(--white);
+    text-transform: none !important;
 }
 
 .custom-list {
@@ -148,6 +160,7 @@ section {
 .header .flex .logo i {
     margin-right: .5rem;
     color: coral;
+    text-transform: none !important;
 }
 
 .home h1 {
@@ -156,6 +169,7 @@ section {
 
 .header .flex .btn{
     margin-top: 0;
+    text-transform: none !important;
 }
 
 .navbar{
@@ -701,10 +715,11 @@ section {
 
 .footer .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 27rem);
+    grid-template-columns: repeat(auto-fit, 32rem);
     gap: 2rem;
     align-items: flex-start;
     justify-content: center;
+    
 
 }
 
